@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "firetube",
+  "version": "1.0",
+
+  "description": "someborder example for 1st firefox addon of lincoln",
+ 
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["border.js"]
+    }
+  ]
+}
